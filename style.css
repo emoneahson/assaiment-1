@@ -1,0 +1,29 @@
+.logo{
+    
+}
+.emon{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    align-items: center;
+    
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 24px 365px;
+    gap: 32px;
+    
+}
+.home{
+    background-color: #30b868;
+    color: aliceblue;
+    border-radius: 7px;
+    width: 164px;
+    height: 44px;
+}
+.back-img
+   
+    
