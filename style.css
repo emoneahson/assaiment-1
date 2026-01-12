@@ -136,27 +136,27 @@
     gap: 10px;
 
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-shadow: black;
     padding: 50px;
 
 
 }
 
 .x {
-    background: rgba(249, 85, 85, 1);
+    background: red;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
     margin: 0 auto;
-
 }
 
+
 .y {
-    background: rgba(249, 85, 85, 1);
+    background: red;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -184,7 +184,7 @@
 }
 
 .z {
-    background: rgba(249, 85, 85, 1);
+    background: red;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -204,7 +204,7 @@
 }
 
 .h {
-    background: rgba(249, 85, 85, 1);
+    background: red;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -216,19 +216,127 @@
 }
 
 .light {
-    
+
     display: flex;
 
     align-items: left;
-    
+
     margin: 10px;
     border-radius: 18px;
-  text-align: left;
-   justify-content: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    padding: 120px;
 }
-.backgarund{
+
+.backgarund {
     background-image: url(assets/knowledge.png);
-     width: 30%;
+    width: 33%;
     height: 60vh;
 }
 
+.active {
+    margin: auto;
+    text-align: left;
+    justify-content: center;
+    border: 10px;
+}
+
+.atv {
+    font-style: Medium;
+    font-size: 30px;
+    text-align: left;
+    padding: 40px 50px;
+    color: green;
+}
+
+.hd {
+    color: black;
+    font-style: Bold;
+    font-size: 70px;
+    text-align: left;
+    justify-content: left;
+    padding: 26px;
+
+
+}
+
+.pn {
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.camel {
+    font-size: 25px;
+    padding: 16px;
+  
+}
+
+.devel {
+    text-align: center;
+    justify-content: center;
+    padding: 80px 40px;
+   
+}
+
+.web {
+    font-size: 80px;
+    text-style: bold;
+    color: black
+    
+}
+
+.ment {
+    color: #627382;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.batton-3 {
+    background-color: #30b868;
+    font-size: 17px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 14px;
+     text-style: bold;
+
+}
+.choise{
+    color: #627382;
+    font-size: 20px;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.note{
+   display: flex;
+    justify-content: space-between;
+   
+    
+    
+}
+.admit{
+    padding: 130px 130px 130px 40px;
+}
+
+.footer{
+     background-color: #0a1f33;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    
+}
+.Social{
+    color: white;
+    font-size: 16px;
+    
+    gap: 40px;
+}
+.logo-1{
+    color: white;
+}
