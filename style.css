@@ -23,6 +23,7 @@
 }
 
 .home {
+    font-weight: bold;
     background-color: #30b868;
     color: aliceblue;
     border-radius: 7px;
@@ -51,6 +52,7 @@
 }
 
 .easy {
+    font-weight: bold;
     background-color: aliceblue;
     color: #30b868;
     border-radius: 18px;
@@ -84,6 +86,7 @@
 }
 
 .batton {
+    font-weight: bold;
     background-color: #30b868;
     font-size: 17px;
     color: aliceblue;
@@ -96,6 +99,7 @@
 }
 
 .batton-1 {
+    font-weight: bold;
     background-color: #30b868;
     font-size: 17px;
     color: aliceblue;
@@ -145,7 +149,7 @@
 .x {
     background: red;
     padding: 10px;
-    border-radius: 70%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,8 +234,8 @@
 
 .backgarund {
     background-image: url(assets/knowledge.png);
-    width: 33%;
-    height: 60vh;
+    width: 30%;
+    height: 55vh;
 }
 
 .active {
@@ -275,6 +279,12 @@
 }
 
 .devel {
+   
+    
+    max-width: 70%;
+    margin: 50px auto;
+    border-radius: 12px;
+background: rgba(247, 246, 242, 1);
     text-align: center;
     justify-content: center;
     padding: 80px 40px;
@@ -295,6 +305,7 @@
 }
 
 .batton-3 {
+    font-weight: bold;
     background-color: #30b868;
     font-size: 17px;
     color: aliceblue;
@@ -329,6 +340,7 @@
 .copyright{
     text-align: center;
     color: white;
+    padding-bottom: 25px;
     
 }
 .Social{
@@ -339,4 +351,19 @@
 }
 .logo-1{
     color: white;
+}
+
+.fa-solid-green {
+color: green;
+
+}
+.fa-brands{
+   color: white; 
+   display: flex;
+ justify-content: space-between;
+    align-items: center;
+} 
+.pncil{
+    display: flex;
+    gap: 10px;
 }
